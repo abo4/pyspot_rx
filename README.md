@@ -7,4 +7,5 @@ Python script connecting to BrandMeister Master via Open Terminal Protocol and l
 * DVMEGA Dvstick 30 (ambe voice codec)
 * Python >= 3.?
 * various Python modules
-* comming soon....
+
+** comming soon....**
