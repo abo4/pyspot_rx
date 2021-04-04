@@ -16,7 +16,7 @@ Python script to connect to BrandMeister via Open Terminal Protocol and listen t
 
 * Edit pyspot_rx.cfg to your needs, then run in terminal:
 
-```python
+```
 	python3 ./pyspot_rx.py -c pyspot_rx.cfg -l /tmp/pyspot_rx.log
 	
 	yourID (subscibed talkgroups)>
@@ -31,7 +31,7 @@ Python script to connect to BrandMeister via Open Terminal Protocol and listen t
 ```
 * View log messages in 2nd terminal:
 
-```bash
+```
 	tail -f /tmp/pyspot_rx.log
 ```
 
@@ -39,7 +39,7 @@ Python script to connect to BrandMeister via Open Terminal Protocol and listen t
 
 * On errors install missing Python modules e.g.:
 
-```python
+```
 	python3 -m pip install pyserial
 ```
 
