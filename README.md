@@ -53,3 +53,7 @@ Python script to connect to BrandMeister via Open Terminal Protocol and listen t
 ```bash
 	pactl list short sinks
 ```
+
+**Thanks**
+
+to BrandMeister developers and admins for support ;-)
