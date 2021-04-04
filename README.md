@@ -1,5 +1,5 @@
 # pyspot_rx.py
-Python script to connect to BrandMeister via Open Terminal Protocol and listen to amateur radio.
+Python script to connect to BrandMeister via Open Terminal Protocol and listen to digital amateur radio.
 
 **Requirements**
 
