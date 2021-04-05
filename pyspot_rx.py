@@ -26,7 +26,7 @@ log_stderr.setFormatter(log_formatter)
 
 
 __author__ = 'dj4ck@darc.de'
-__version__ = '20210404'
+__version__ = '20210405'
 
 HELP = {
         'quit':"q[uit]  program",
@@ -842,7 +842,7 @@ async def main():
     # connect to BrandMeister Server
     oterm_transport, oterm_protocol = await loop.create_datagram_endpoint(lambda: OTCF(
         user_id=cfg.getint('pyspot_rx', 'user_id'),
-        terminal_id=cfg.getint('master','terminal_id'),
+        terminal_id=cfg.getint('pyspot_rx','user_id'),
         password=cfg['master']['password'],
         dv30=dv30,
         logger=log,
